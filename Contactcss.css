@@ -7,7 +7,7 @@
     overflow: -x hidden;
   }
   
-  /* contact us font */
+  
   #four h1 {
     position: absolute;
     z-index: 3;
@@ -40,7 +40,7 @@
     margin-left: 10%;
   }
   
-  /* form input */
+  /* form input k liye*/
   .cnt-bx {
     width: 80%;
     height: 50px;
@@ -134,7 +134,6 @@
     border: 2px solid #013F59;
   }
   
-  /* contact image */
   .cnt-img {
     width: 300px;
     height: 300px;
@@ -146,15 +145,13 @@
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
     border-radius: 20px;
   }
-  
-  /* contact us mobile view hide */
   .contact-us-mob {
     display: none;
   }
   
   @media screen and (max-width: 800px) {
   
-    /web view hide/
+    
     .contact-us {
       display: none;
     }
@@ -172,13 +169,9 @@
       transform: none;
       z-index: 1;
     }
-  
-    /*mobile view */
     .contact-us-mob {
       display: block;
     }
-  
-    /* contact image */
     .cnt-img-mob {
       display: block;
       margin-left: auto;
@@ -193,7 +186,7 @@
       border-radius: 20px;
     }
   
-    /* text input and textarea in mobile view */
+    /* text input and textarea mobile view k liye*/
     input[type=text], select, textarea {
       width: 100%;
       padding: 12px;

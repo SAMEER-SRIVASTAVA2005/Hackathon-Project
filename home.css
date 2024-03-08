@@ -1,4 +1,4 @@
-/* //preloader */
+
 #go {
     display: none;
     opacity: 0;
@@ -156,8 +156,6 @@
     right: 0;
     opacity: 0;
   }
-  
-  /* button styles-animation */
   .left-bottom {
     display: flex;
     flex-direction: column;
@@ -257,8 +255,6 @@
       background-position: 0% 52%
     }
   }
-  
-  /* login-text */
   .login-text {
     margin-bottom: 5%;
     font-size: 2rem;
